@@ -90,30 +90,16 @@ class Musclehead {
         }
         print("\(weight)kg is the weight after taking pills and cardio")
     }
-        
     
-            
-    
-    
-
-
-
-
-enum EatType {
+    enum EatType {
             case healthy
             case everything
             }
-
-
-
-
 
     enum GenderType {
         case woman
         case man
     }
-    
-    
     
 }
 

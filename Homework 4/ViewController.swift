@@ -48,7 +48,6 @@ class ViewController: UIViewController {
             if let gramsOfFood = Double(gramsDouble) {
                 bodyBuilder.eat(foodMass: gramsOfFood)
                 reboot()
-                
             } else {
                 print("The entered text is not a number")
             }
